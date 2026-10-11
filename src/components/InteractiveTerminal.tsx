@@ -122,9 +122,9 @@ export const InteractiveTerminal: React.FC<InteractiveTerminalProps> = ({
         output = (
           <div className="space-y-1 text-zinc-300">
             <p><span className="text-cyan-400">Email:</span> {personalData.contact.email}</p>
-            <p><span className="text-cyan-400">Phone:</span> {personalData.contact.phone}</p>
             <p><span className="text-cyan-400">GitHub:</span> {personalData.contact.github}</p>
             <p><span className="text-cyan-400">LinkedIn:</span> {personalData.contact.linkedin}</p>
+            <p><span className="text-cyan-400">Location:</span> {personalData.contact.location}</p>
           </div>
         );
         break;

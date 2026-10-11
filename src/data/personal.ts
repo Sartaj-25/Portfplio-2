@@ -17,7 +17,6 @@ export const personalData: PersonalInfo = {
   },
   contact: {
     email: 'sartajali4125@gmail.com',
-    phone: '+91 7546917019',
     linkedin: 'https://www.linkedin.com/in/Sartaj-25',
     github: 'https://github.com/Sartaj-25',
     location: 'Bangalore, India',

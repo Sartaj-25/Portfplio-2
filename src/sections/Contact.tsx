@@ -3,7 +3,7 @@ import { SectionHeading } from '../components/SectionHeading';
 import { personalData } from '../data/personal';
 import {
   Mail,
-  Phone,
+  MapPin,
   Send,
   CheckCircle2,
   AlertCircle,
@@ -120,19 +120,16 @@ export const Contact: React.FC = () => {
                   </button>
                 </div>
 
-                {/* Phone */}
+                {/* Location */}
                 <div className="flex items-center p-3.5 rounded-xl bg-zinc-900/70 border border-zinc-800 gap-3">
                   <div className="p-2 rounded-lg bg-emerald-500/10 text-emerald-400">
-                    <Phone size={18} />
+                    <MapPin size={18} />
                   </div>
                   <div>
-                    <div className="text-[11px] font-mono text-zinc-400">PHONE</div>
-                    <a
-                      href={`tel:${contact.phone.replace(/\s+/g, '')}`}
-                      className="text-sm font-medium text-zinc-200 hover:text-white transition-colors"
-                    >
-                      {contact.phone}
-                    </a>
+                    <div className="text-[11px] font-mono text-zinc-400">LOCATION</div>
+                    <div className="text-sm font-medium text-zinc-200">
+                      {contact.location}
+                    </div>
                   </div>
                 </div>
               </div>

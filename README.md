@@ -25,7 +25,7 @@ All personal details, projects, skills, and achievements are centralized in modu
 
 | Data File | Description |
 | :--- | :--- |
-| [`src/data/personal.ts`](file:///e:/Project/Portfolio%202/src/data/personal.ts) | Personal information, headline, bio paragraphs, contact details (Email, Phone, LinkedIn, GitHub), and availability status badge. |
+| [`src/data/personal.ts`](file:///e:/Project/Portfolio%202/src/data/personal.ts) | Personal information, headline, bio paragraphs, contact details (Email, LinkedIn, GitHub, Location), and availability status badge. |
 | [`src/data/projects.ts`](file:///e:/Project/Portfolio%202/src/data/projects.ts) | Deep-dive content for the 3 flagship projects (**FRAB**, **IdentiPI**, **Automaton Nexus**), including problem statements, feature lists, agent roles, and impact metrics. |
 | [`src/data/skills.ts`](file:///e:/Project/Portfolio%202/src/data/skills.ts) | Categorized technical arsenal (Languages, Frontend, Backend, Databases, AI/ML, Blockchain & ZKP, Tools). |
 | [`src/data/achievements.ts`](file:///e:/Project/Portfolio%202/src/data/achievements.ts) | Verified hackathon podium finishes, prizes, and fellowship distinctions. |

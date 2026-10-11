@@ -10,7 +10,7 @@ export interface PersonalInfo {
   };
   contact: {
     email: string;
-    phone: string;
+    phone?: string;
     linkedin: string;
     github: string;
     location: string;
